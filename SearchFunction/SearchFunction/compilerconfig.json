@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "css/general.css",
+    "inputFile": "sass/general.sass"
+  },
+  {
+    "outputFile": "sass/general.css",
+    "inputFile": "sass/general.scss"
+  }
+]
