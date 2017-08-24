@@ -18,3 +18,5 @@ What we look at
 Solve the task as far as you think is necessary. For this specific assignment focus on HTML/CSS, structure and good coding standards rather than advanced JS.
  
 When done push your branch and let us know it’s done, e.g. by a pull request.
+
+To view, open index.html
