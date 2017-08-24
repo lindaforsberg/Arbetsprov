@@ -71,6 +71,9 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <Content Include="css\general.min.css">
+      <DependentUpon>general.css</DependentUpon>
+    </Content>
     <Content Include="sass\general.css">
       <DependentUpon>general.scss</DependentUpon>
     </Content>
