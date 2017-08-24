@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+html {
+  height: 100%; }
+
+body {
+  background-color: #e6e6e6;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; }
+
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #3B57A6;
+  background: linear-gradient(#002650 40%, #3B57A6 100%); }
+  main .ui-button.ui-state-active:hover {
+    background: #B3BECA; }
+  main .logo-container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 60px 0; }
+  main .search-container .input-container {
+    padding: 0 32px 32px 32px; }
+    main .search-container .input-container input {
+      padding: 17px 45px;
+      background: #B3BECA;
+      color: white;
+      letter-spacing: 0.15em;
+      width: 100%;
+      border: none;
+      border-radius: 4px;
+      box-sizing: border-box; }
+      main .search-container .input-container input::-webkit-input-placeholder {
+        color: white; }
+      main .search-container .input-container input:-ms-input-placeholder {
+        color: white; }
+      main .search-container .input-container input::placeholder {
+        color: white; }
+  main .search-container .result-list {
+    background-color: rgba(255, 255, 255, 0.17);
+    padding: 15px 0; }
+    main .search-container .result-list.hide {
+      display: none; }
+    main .search-container .result-list ul {
+      list-style: none;
+      margin: 10px 0;
+      padding: 0;
+      clear: both; }
+      main .search-container .result-list ul li {
+        position: relative;
+        padding: 18px 30px;
+        color: #fff;
+        transition: all 300ms ease; }
+        main .search-container .result-list ul li:hover {
+          background-color: rgba(255, 255, 255, 0.1); }
+          main .search-container .result-list ul li:hover .remove {
+            display: block;
+            cursor: pointer;
+            transition: all 300ms ease; }
+        main .search-container .result-list ul li .remove {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          background-color: #793952;
+          padding: 15px 18px;
+          display: none; }
+          main .search-container .result-list ul li .remove span {
+            background: #fff;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            line-height: 18px;
+            color: #9e9e9e;
+            text-align: center;
+            font-size: 0.9em; }
+        main .search-container .result-list ul li span {
+          font-weight: bold;
+          width: 55%;
+          display: block;
+          float: left;
+          line-height: 16px; }
+        main .search-container .result-list ul li time {
+          float: right;
+          width: 40%;
+          display: block;
+          line-height: 16px;
+          font-size: 0.8em;
+          letter-spacing: 0.1em; }
